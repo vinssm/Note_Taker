@@ -1,0 +1,24 @@
+{
+  "notes": [
+    {
+      "title": "UI Developer",
+      "text": "HTML\n- css\n- JavaScript",
+      "id": "0"
+    },
+    {
+      "title": "Backend Developer",
+      "text": "SQL\n- ExpressJS\n- Java\n- dotNet",
+      "id": "1"
+    },
+    {
+      "title": "DevOps",
+      "text": "CI\n- CD",
+      "id": "2"
+    },
+    {
+      "title": "Cloud",
+      "text": "AWS\n- Azure\n- GCP",
+      "id": "3"
+    }
+  ]
+}
