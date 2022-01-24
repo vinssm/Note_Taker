@@ -3,22 +3,32 @@
     {
       "title": "UI Developer",
       "text": "HTML\n- css\n- JavaScript",
-      "id": "0"
+      "id": "1"
     },
     {
       "title": "Backend Developer",
       "text": "SQL\n- ExpressJS\n- Java\n- dotNet",
-      "id": "1"
+      "id": "2"
     },
     {
       "title": "DevOps",
       "text": "CI\n- CD",
-      "id": "2"
+      "id": "3"
     },
     {
       "title": "Cloud",
       "text": "AWS\n- Azure\n- GCP",
-      "id": "3"
+      "id": "4"
+    },
+    {
+      "title": "Git",
+      "text": "Version Control Syustem",
+      "id": "4"
+    },
+    {
+      "title": "SVN",
+      "text": "Version Control System",
+      "id": "5"
     }
   ]
 }

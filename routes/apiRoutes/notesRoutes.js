@@ -14,11 +14,6 @@ router.get('/notes', (req, res) => {
 
 });
 
-// router.get('/notes', (req, res) => {
-//     console.log(notes)
-//     res.json(notes);
-
-// });
 
 router.get('/notes/:id', (req, res) => {
   const result = findById(req.params.id, notes);
@@ -30,14 +25,9 @@ router.get('/notes/:id', (req, res) => {
 });
 
 router.post('/notes', (req, res) => {
-
-  if (!req.body.id) {
-        createNote(req.body, notes);
-  } else {
-    editNote(req.body, notes);
-  }
-  res.json(notes);
-  
+    req.body.id = notes.length.toString();
+    const note = createNote(req.body, notes);
+    res.json(notes);  
 });
 
 
